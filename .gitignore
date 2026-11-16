@@ -1,0 +1,25 @@
+# Contraseñas y configuración privada
+.env
+*.env
+!.env.example
+
+# Entornos y dependencias
+venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Bases de datos locales
+db.sqlite3
+
+# Compilados
+frontend/dist/
+
+# Archivos subidos desde el admin (incluye documentos personales)
+backend/media/
+backend/private_media/
+backend/staticfiles/
+
+# Código antiguo que ya no se usa
+_respaldo/
+backend/contact-backend/
